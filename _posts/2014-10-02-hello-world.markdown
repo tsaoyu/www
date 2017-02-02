@@ -13,3 +13,5 @@ excited to as we are!
 
 Keep up with this site as we'll be posting all the materials at it. May all the
 rubies be with you!
+
+中文测试
