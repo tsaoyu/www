@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 category: posts
+published: false
 ---
 
 Hi and welcome to the first ever [Hack Bulgaria] class. I hope you are as
