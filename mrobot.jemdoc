@@ -35,13 +35,13 @@ No matter how complex each challenges might be, it could achieved by many severa
 == Competition result
 The followings are maps with actual GPS trace taken from 2016 competition result. In general, those challenges turns out to be much harder than we expected.
 
-{{<img src="result2016" alt="Result" width=600}}
+{{<img src="result2016.png" alt="Result" width=600}}
 
 You may already notices her struggle in reaching the start-line during the fleet race. Strong ocean current push the sailing robot back every time when she try to tack towards the start line and the rapid changing wind condition make it worse. Also human error made under intensive competition pressure is an important factor.
 
 But we quickly learn from mistakes and try to figure out the root cause of that. The rest challenges are accomplished with an acceptable result. You can read more stories on our [http://blog.sotonsailrobot.org blog]. The awrad is given upon the team with best overall performance, even we are not all perfect but successfully finish three out of four challenges place ourself as  [https://web.fe.up.pt/~jca/wrsc2016.com/docs/WRSC-Final-Results.pdf *champion*] of 2016 World Robotics Sailing Championship.
 
-{{<img src="result2017" alt="Result" width=650}}
+{{<img src="result2017.png" alt="Result" width=650}}
 
 As we  are getting more experienced, in 2017 most effort was made on the improvement of the system. We have implemented sensor fusion algorithm on board, developed a new dashboard, wrote before run selftest scripts, and do many tests. The competition result is better and we secure our *champion* title.
 
