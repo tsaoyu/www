@@ -1,16 +1,78 @@
----
-layout: layout
-title: "Posts"
----
-
-<section class="content">
-  <ul class="listing">
-    {% for post in site.posts %}
-      {% unless post.draft %}
-      <li>
-        <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-</section>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Home</title>
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">About me</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html">Renewable</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-category">Team Work</div>
+<div class="menu-item"><a href="mrobot.html">Sailing&nbsp;Robot</a></div>
+<div class="menu-item"><a href="hydro.html">Hydro&nbsp;Contest</a></div>
+<div class="menu-category">Resources</div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-item"><a href="datasets.html">Datasets</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Home</h1>
+</div>
+<table class="imgtable"><tr><td>
+<img src="profile.jpg" alt="Profile" width="240px" height="320px" />&nbsp;</td>
+<td align="left"><p>My name is Yu Cao, a PhD candidate in <a href="http://www.southampton.ac.uk/engineering/research/groups/fsi.page" target=&ldquo;blank&rdquo;>Fluid Structure Interactions</a> research group at University of Southampton.</p>
+<p>I am a researcher on hybrid renewable energy for <b>ocean</b> systems, also, an enthusiast on <b>maritime</b> robots.</p>
+<p>I wish in the future those work could help transportation industry become safer, smarter and greener.</p>
+<p>News:</p>
+<ul>
+<li><p>We will host World Robotic Sailing Championship <a href="https://www.roboticsailing.org/2018/" target=&ldquo;blank&rdquo;>(WRSC) 2018</a> at Southampton! Please join us (Apr. 2018)</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://karlobermeyer.github.io/VisiLibity1/" target=&ldquo;blank&rdquo;>VisiLibity1</a>, Planar Visibility Computations, now available
+in Python (LGPL license). (Mar. 2018)</p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://maritimerenewable.github.io/PyResis/" target=&ldquo;blank&rdquo;>PyResis</a> Python ship propulsion Resistance estimation package is released under MIT license. (Oct. 2017)</p>
+</li>
+</ul>
+<ul>
+<li><p>We defend our champion in World Robotics Sailing Competition 2017 at Norway! (Sept. 2017)</p>
+</li>
+</ul>
+<ul>
+<li><p>I passed my transfer VIVA and officially become a PhD candidate :)  (Sept. 2017)</p>
+</li>
+</ul>
+</td></tr></table>
+<p>* Opinions on this page are my own</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-04-15 14:25:02 BST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# jemdoc: menu{MENU}{datasets.html}
+=Datasets
+
+
+== Voyage log
+We have recorded and indexed our sailing robot data as ros-bag and csv.
+You can find and download it [http://www.soton.ac.uk/~yc6n13/sailing-robot/index.html here].

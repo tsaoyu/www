@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Autonomous Sailing Robot Project</title>
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">About me</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html">Renewable</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-category">Team Work</div>
+<div class="menu-item"><a href="mrobot.html" class="current">Sailing&nbsp;Robot</a></div>
+<div class="menu-item"><a href="hydro.html">Hydro&nbsp;Contest</a></div>
+<div class="menu-category">Resources</div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-item"><a href="datasets.html">Datasets</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Autonomous Sailing Robot Project</h1>
+</div>
+<p>Sailing robot is an autonomous boat, it use sustainable wind energy as propulsion power. It can be used in a long term oceanographical survey, routinely water quality monitor, marine animal tracking. Started this in Jan 2016, this student lead project aimed to design and build an open-source sailing robot system. We participate in top level competitions, organise open-day events, write blog posts, and give formal presentations in order to enrich the public understanding on the future of autonomy and clean energy.</p>
+<h2>Competition challenges</h2>
+<p>We participated in the World Robotics Sailing Competition (WRSC) from 2016. Competition has four major challenges, the team who achieved the best among all challenges win the <b>World Champion</b> title. Those four challenges are all close related to the real user scenarios, in more details:</p>
+<table class="imgtable"><tr><td>
+<img src="challenges.png" alt="Challenges 2016" width=" " height="200px" />&nbsp;</td>
+<td align="left"><ul>
+<li><p>First challenge: fleet race, similar to the conventional sailing regatta, faster means higher scores.</p>
+</li>
+</ul>
+<ul>
+<li><p>Second challenge: station keeping, boat should able to keep as close to a given way point as possible. With in 5 minutes time, a smaller the averaged radius indicate a higher mark.</p>
+</li>
+</ul>
+<ul>
+<li><p>Area searching is the third mission, an &ldquo;L&rdquo; shape area was divided into many smaller blocks, the more blocks sailboat visited the higher it scores.</p>
+</li>
+</ul>
+<ul>
+<li><p>Last challenge is obstacle avoidance, sailing boat need to sail back and forth until it finds a buoy. It has more complex marking system but in general the team that recognise and avoid the obstacle better get higher points.</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>The team and our boat</h2>
+<p>Those challenges might seems straight-forward, but to tackle them it do requires huge effort by many people. It hard to be done without team work. Our team is formed by students at University of Southampton with various backgrounds: ship science, electrical engineering, computer science, robotics and management.</p>
+<table class="imgtable"><tr><td>
+<img src="robotteam.jpg" alt="The Team -- Brian" height="250px" />&nbsp;</td>
+<td align="left"><p>Here is the team and our boat, her name is <b>The Black Python</b>:</p>
+<ul>
+<li><p>One metre long, can be dissembled and carried as an over-sized luggage on airplanes.</p>
+</li>
+<li><p>Separated servo motors controls sail and rudder.</p>
+</li>
+<li><p>A Raspberry Pi with <a href="http://www.ros.org" target=&ldquo;blank&rdquo;>ROS</a> running on Ubuntu is her brain.</p>
+</li>
+<li><p>Has GPS, IMU, camera and wind direction sensor.</p>
+</li>
+<li><p>Most code was written in Python and open sourced on <a href="https://github.com/Maritime-Robotics-Student-Society/sailing-robot" target=&ldquo;blank&rdquo;>GitHub</a></p>
+</li>
+</ul>
+</td></tr></table>
+<p>No matter how complex each challenges might be, it could achieved by many several maneuverers. We developed a task based mission planning system that generate waypoints for each challenges. Those waypoints can either be single or multiple, stationary or dynamic based on the challenges. We also teach her how to sailing in different wind condition especially towards the wind by programming tack and jibe maneuverers. Please refer our <a href="https://github.com/Maritime-Robotics-Student-Society/sailing-robot/wiki" target=&ldquo;blank&rdquo;>wiki</a> for details.</p>
+<h2>Competition result</h2>
+<p>The followings are maps with actual GPS trace taken from 2016 competition result. In general, those challenges turns out to be much harder than we expected.</p>
+<p><img src="result2016" alt="Result" width=600</p>
+<p>You may already notices her struggle in reaching the start-line during the fleet race. Strong ocean current push the sailing robot back every time when she try to tack towards the start line and the rapid changing wind condition make it worse. Also human error made under intensive competition pressure is an important factor.</p>
+<p>But we quickly learn from mistakes and try to figure out the root cause of that. The rest challenges are accomplished with an acceptable result. You can read more stories on our <a href="http://blog.sotonsailrobot.org" target=&ldquo;blank&rdquo;>blog</a>. The awrad is given upon the team with best overall performance, even we are not all perfect but successfully finish three out of four challenges place ourself as  <a href="https://web.fe.up.pt/~jca/wrsc2016.com/docs/WRSC-Final-Results.pdf" target=&ldquo;blank&rdquo;><b>champion</b></a> of 2016 World Robotics Sailing Championship.</p>
+<p><img src="result2017" alt="Result" width=650</p>
+<p>As we  are getting more experienced, in 2017 most effort was made on the improvement of the system. We have implemented sensor fusion algorithm on board, developed a new dashboard, wrote before run selftest scripts, and do many tests. The competition result is better and we secure our <b>champion</b> title.</p>
+<h2>Future plan and some random thoughts</h2>
+<p>To further facilitate the robotics sailing, we host 2018 competition at Southampton. We welcome everyone who are interested in the sailing robot, marine autonomy, and clean transportation to join this competition and the conference. Details are available on the official competition <a href="https://www.roboticsailing.org/2018/" target=&ldquo;blank&rdquo;>website</a>.</p>
+<p>One of the FAQs we had is &ldquo;Why you want to the boat sailing by itself? Do you want to replace human sailors?&rdquo;</p>
+<ul>
+<li><p>This question is frequently raised by the public when we were doing test on open waters. We think the role of robot is rather supplementary than substitutional. It do what human sailors can't or won't do such as do station keeping and area searching that recreational sailor would easily get bored. People will still have fun on the water and those boring and tedious job was handle by robots. It might sounds unfair to robots but that's the reason why we design them.</p>
+</li>
+</ul>
+<p>Can this be the Uber on water or replace container ship? Is there any commercial available product?</p>
+<ul>
+<li><p><a href="http://saildrone.com" target=&ldquo;blank&rdquo;>Saildrone</a> is doing this as their business, it looks impressive.</p>
+</li>
+</ul>
+<ul>
+<li><p>I couldn't see any reason why we couldn't have autonomous passenger sailing ships. It might even not need to be charged. Electrical control, similar to autonomous driving cars&rsquo; drive-by-wire, is already exist on sailboats.</p>
+</li>
+</ul>
+<ul>
+<li><p>Container ships are much faster and more capable than the old time sailbots of which are already big. Technically, the fully autonomy would be possible but I could see challenges in ship structures, capability and economic performance.</p>
+</li>
+</ul>
+<p>How to started to build my own sailing robot?</p>
+<ul>
+<li><p>Radio controller sailing boats are easy to source and that can be a good start for your project. Radio control it first to get the feeling of sailing if you have never done that before.</p>
+</li>
+</ul>
+<ul>
+<li><p>Main controller, GPS, camera and IMU can be relatively cheap, source them online. wind sensor with enough resolution is either too heavy or too expensive. You can DIY one of them follow this <a href="https://hackaday.io/project/13096-southampton-sailing-robot" target=&ldquo;blank&rdquo;>instruction</a></p>
+</li>
+<li><p>Learn bit ROS and Python (or Cpp) programming. Join WRSC mailing list for some professional advices</p>
+</li>
+<li><p>Test it, break it, repair it, over and over again</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-04-15 14:25:02 BST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

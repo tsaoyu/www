@@ -1,0 +1,30 @@
+# jemdoc: menu{MENU}{research.html}
+=Renewable energy system for moving platforms
+
+
+Thousands and hundreds tons of fossil fuel are burning every moment in transportation industry to move people and goods around the world. Harvest energy from renewable resource is a way to mitigate the negative environment impact. My research studies the design optimisation and the dynamic power management of hybrid renewable energy system (HRES) for moving platforms.
+
+== Design optimisation
+
+Conventional HRES design is site specific and it depends upon load demand and renewable resources available. It suffer problems such as its inaccuracy in power output estimation under the presence of platforms' local motion, inability in handling various physical constraints, and insufficiency on the renewable resources data.
+
+A new data-driven simulation based optimisation method was purposed to solve those problems. This method use spatial-temporal data with non-stationary HRES model to design HRES by constrained multi-objective optimisation.
+
+
+- Data-driven approach is used to collect and prepare renewable resources data for the simulation. Weather were first subset from real weather database and then reconstruct a spatial-temporal data.
+
+
+{{<img src="datademo.png" alt="Data-driven" width="600">}}
+
+- Non-stationary HRES model is developed for an accurate power output estimation. As an example, when platform undergoes a local motion, solar angle changes constantly that affect its power output. Novel non-stationary HRES model takes the dynamics of platforms into consideration.
+
+{{<img src="directradiationonpanel.jpg" alt="Solar angle" width="300" class="center">}}
+
+- Constraints in the design is handle by bio-inspired multi-objectives optimisation. It supports multi-level method (PSO), simultaneous method (GA) and non-linear (NLOPT) method.
+
+{{<img src="flowchart.jpg" alt="Flow chart" width="300" class="center">}}
+
+Featured with capabilities such as intelligent data handle, nonlinear non-concave optimise, and automatic report generation, software used in this research are open sourced to the public.
+
+ == Dynamic power management
+Under construction

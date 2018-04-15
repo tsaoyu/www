@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Renewable energy system for moving platforms</title>
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">About me</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html" class="current">Renewable</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-category">Team Work</div>
+<div class="menu-item"><a href="mrobot.html">Sailing&nbsp;Robot</a></div>
+<div class="menu-item"><a href="hydro.html">Hydro&nbsp;Contest</a></div>
+<div class="menu-category">Resources</div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-item"><a href="datasets.html">Datasets</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Renewable energy system for moving platforms</h1>
+</div>
+<p>Thousands and hundreds tons of fossil fuel are burning every moment in transportation industry to move people and goods around the world. Harvest energy from renewable resource is a way to mitigate the negative environment impact. My research studies the design optimisation and the dynamic power management of hybrid renewable energy system (HRES) for moving platforms.</p>
+<h2>Design optimisation</h2>
+<p>Conventional HRES design is site specific and it depends upon load demand and renewable resources available. It suffer problems such as its inaccuracy in power output estimation under the presence of platforms&rsquo; local motion, inability in handling various physical constraints, and insufficiency on the renewable resources data.</p>
+<p>A new data-driven simulation based optimisation method was purposed to solve those problems. This method use spatial-temporal data with non-stationary HRES model to design HRES by constrained multi-objective optimisation.</p>
+<ul>
+<li><p>Data-driven approach is used to collect and prepare renewable resources data for the simulation. Weather were first subset from real weather database and then reconstruct a spatial-temporal data.</p>
+</li>
+</ul>
+<p><img src="datademo.png" alt="Data-driven" width="600"></p>
+<ul>
+<li><p>Non-stationary HRES model is developed for an accurate power output estimation. As an example, when platform undergoes a local motion, solar angle changes constantly that affect its power output. Novel non-stationary HRES model takes the dynamics of platforms into consideration.</p>
+</li>
+</ul>
+<p><img src="directradiationonpanel.jpg" alt="Solar angle" width="300" class="center"></p>
+<ul>
+<li><p>Constraints in the design is handle by bio-inspired multi-objectives optimisation. It supports multi-level method (PSO), simultaneous method (GA) and non-linear (NLOPT) method.</p>
+</li>
+</ul>
+<p><img src="flowchart.jpg" alt="Flow chart" width="300" class="center"></p>
+<p>Featured with capabilities such as intelligent data handle, nonlinear non-concave optimise, and automatic report generation, software used in this research are open sourced to the public.</p>
+<h2>Dynamic power management</h2>
+<p>Under construction</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-04-15 14:25:02 BST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
