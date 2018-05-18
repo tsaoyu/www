@@ -9,6 +9,8 @@ pronounce as: {{<audio controls>
 
 
 == Education
+2015 \~ now : Philosophy of Doctor, *Renewable Energy*,
+University of Southampton
 
 2014 \~ 2015: Master of Science /with Distinction/, *Marine Engineering *, University of Southampton
 
@@ -18,9 +20,9 @@ pronounce as: {{<audio controls>
 
 == Awards and Scholarships
 
-Sept. 2017: 1st place in Micro-sailbot Class, World Sailing Robot Competition, Norway
+Sept. 2017: World Champion, World Sailing Robot Competition micro class, Norway
 
-Sept. 2016: 1st place in Micro-sailbot Class, World Sailing Robot Competition, Portugal
+Sept. 2016: World Champion, World Sailing Robot Competition micro class, Portugal
 
 June. 2016: 4th place in lightweight category, Hydro Contest, Switzerland
 
@@ -31,11 +33,14 @@ Sept. 2013: Second class Scholarship, Wuhan University of Technology, China
 June. 2012: Merit student, Wuhan University of Technology, China
 
 
-== Skills
+== Skill stacks
 
-Languages: Chinese as mother-tongue, English with professional proficiency
+Languages: Chinese, English
 
-Computer skills: Python, C; Linux, Git; Mathematica, MATLAB; LaTeX, Illustrator, TiKZ; HTML, CSS; SolidWorks, AutoCAD, ANSYS(AQWA);
+Foundation: Linux | macOS, Git, CLI (bash|zsh), vim|emacs (org-mode only), Python|C\++, Mathematica|MatLab
 
+Robotics: ROS, Simulink -> Sensor fusion, Path planning, Feedback control
 
-Cooking skill: Yummy
+Renewable: My framework -> Data-driven simulation, Constraint optimisation, Dynamic power management
+
+Story telling: LaTeX, Jekyll -> Papers, Blogs, Websites

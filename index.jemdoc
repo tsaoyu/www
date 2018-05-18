@@ -3,25 +3,27 @@
 
 ~~~
 {}{img_left}{profile.jpg}{Profile}{240}{320}{}
-My name is Yu Cao, a PhD candidate in [http://www.southampton.ac.uk/engineering/research/groups/fsi.page Fluid Structure Interactions] research group at University of Southampton.
+My name is Yu Cao, third year PhD candidate at University of Southampton.
 
-I am a researcher on hybrid renewable energy for *ocean* systems, also, an enthusiast on *maritime* robots.
+My research interests are in the field of long-term self-sustained autonomous system. I am currently working on two related areas:
+theoretical research on the hybrid renewable energy system (HRES) and applied research on the autonomous *maritime* robotics.
 
-I wish in the future those work could help transportation industry become safer, smarter and greener.
+The theoretical research on HRES covers the design, optimisation and management of power system on *moving* platforms such as ships, cars and airplanes. I extended my research interests to the autonomy of *maritime* robotics with a particular emphasis on sailing boats.
+
+You can find more about my research on the left columns.
+
 
 
 News:
-- We will host World Robotic Sailing Championship [https://www.roboticsailing.org/2018/ (WRSC) 2018] at Southampton! Please join us (Apr. 2018)
+- We will host World Robotic Sailing Championship [https://www.roboticsailing.org/2018/ (WRSC) 2018] at Southampton! Please join us! (Apr. 2018)
 
-- [https://karlobermeyer.github.io/VisiLibity1/ VisiLibity1], Planar Visibility Computations, now available
- in Python (LGPL license). (Mar. 2018)
+- [https://karlobermeyer.github.io/VisiLibity1/ VisiLibity1], Planar Visibility Computations (power management, path planning), now available on PyPI (LGPL license). (Mar. 2018)
 
 - [https://maritimerenewable.github.io/PyResis/ PyResis] Python ship propulsion Resistance estimation package is released under MIT license. (Oct. 2017)
 
 - We defend our champion in World Robotics Sailing Competition 2017 at Norway! (Sept. 2017)
 
-- I passed my transfer VIVA and officially become a PhD candidate :)  (Sept. 2017)
 
 ~~~
 
-* Opinions on this page are my own
+* Opinions on this website are my own
