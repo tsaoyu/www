@@ -1,6 +1,21 @@
 # jemdoc: menu{MENU}{publication.html}
-== Publications
+= Publications
+Research outcome including journal papers, conference papers and OSS (open-source software) are listed below.
 
-= Conference
+== Journal Papers
+
+== Conference Papers
 
 Cao, Yu, Townsend, Nicholas and Tan, Mingyi (2017) Hybrid renewable energy system for ocean going platforms At OCEANS'17 MTS/IEEE, Aberdeen, United Kingdom. 19 - 22 Jun 2017. [https://eprints.soton.ac.uk/411913/ paper] & [demo.pdf talk]
+
+== Softwares
+
+=== $D^3 HRE$
+[https://github.com/tsaoyu/D3HRE $D^3 HRE$] (Data Driven Dynamic Hybrid Renewable Energy (D3HRE) is a software suite to study hybrid renewable energy system on moving platforms. This package enables the simulation, optimisation and management of spatial-temporal hybrid renewable energy system e.g. on ships, airballons and airplanes.  {{<a href="https://zenodo.org/badge/latestdoi/129913383"><img src="https://zenodo.org/badge/129913383.svg" alt="DOI" width=160></a>}}
+
+=== PyResis
+
+[https://maritimerenewable.github.io/PyResis/ PyResis] is a Python semi-empirical ship propulsion resistance estimation package. Well documented and tested against some towing tank cases.  {{<a href="https://zenodo.org/badge/latestdoi/103379381"><img src="https://zenodo.org/badge/103379381.svg" alt="DOI" width=160></a>}}
+
+=== synthetic_solar
+[https://github.com/MaritimeRenewable/synthetic_solar Synthetic solar] is a battery included synthetic hourly solar radiation generation tool. This package is able to generate hourly solar radiation at location with given latitude and longitude.
