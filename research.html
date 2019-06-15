@@ -36,32 +36,36 @@ MathJax.Hub.Config({
 <div id="toptitle">
 <h1>Hybrid renewable energy system for moving platforms</h1>
 </div>
-<p>Renewable energy system can harvest energy from sustainable renewable resources and supply clean energy to the power system.
-Hybrid renewable energy system (HRES) use multiple resources together can potentially provides long-term power supply to self-sustained moving platforms.</p>
-<h2>Design optimisation</h2>
-<p>Conventional HRES design is site specific and it depends upon load demand and renewable resources available. It suffer problems such as its inaccuracy in power output estimation under the presence of platforms&rsquo; local motion, inability in handling various physical constraints, and insufficiency on the renewable resources data.</p>
-<p>A new data-driven simulation based optimisation method was purposed to solve those problems. This method use spatial-temporal data with non-stationary HRES model to design HRES by constrained multi-objective optimisation.</p>
-<ul>
-<li><p>Data-driven approach is used to collect and prepare renewable resources data for the simulation. Weather were first subset from real weather database and then reconstruct a spatial-temporal data.</p>
-</li>
-</ul>
-<p><img src="datademo.png" alt="Data-driven" width="600"></p>
-<ul>
-<li><p>Non-stationary HRES model is developed for an accurate power output estimation. As an example, when platform undergoes a local motion, solar angle changes constantly that affect its power output. Novel non-stationary HRES model takes the dynamics of platforms into consideration.</p>
-</li>
-</ul>
-<p><img src="directradiationonpanel.jpg" alt="Solar angle" width="300" class="center"></p>
-<ul>
-<li><p>Constraints in the design is handle by bio-inspired multi-objectives optimisation. It supports multi-level method (PSO), simultaneous method (GA) and non-linear (NLOPT) method.</p>
-</li>
-</ul>
-<p><img src="flowchart.jpg" alt="Flow chart" width="300" class="center"></p>
-<p>Featured with capabilities such as intelligent data handle, nonlinear non-concave optimise, and automatic report generation, software used in this research are open sourced to the public.</p>
-<h2>Dynamic power management</h2>
+<p>Hybrid Renewable Energy System (HRES) harvests energy from multiple sustainable renewable resources to provide unlimited power supply to the robot. Current research on HRES is limited to stationary applications that neither theoretical model or partial tool are available to a moving robot. This research focus on the modelling, designing and management of HRES for long-term uninterrupted power supply. </p>
+<h2>Model and Simulation</h2>
+<p>First part of the research is the moving HRES model. 
+Compare to conventional stationary models, the moving model considered both global and local motion of the robot. 
+Here is an example on the moving wind power generator during a long-term simulation. </p>
+<p><iframe src="wind_bokeh.html"
+sandbox="allow-same-origin allow-scripts"
+position="absolute"
+top=0
+left=0
+width="120%"
+height="800px"
+scrolling="no"
+seamless="seamless"
+frameborder="0">
+</iframe></p>
+<p>Have you noticed that the minimal discounted wind turbine energy generation is negative when exploring the allocation of wind power generation? This is because the robot's local motion introduces an extra wind resistance that must counterbalance by the propulsion system. Depending on the direction of the wind, net power generation after the propulsion energy discount could be negative.</p>
+<p>The rest of power system is modelled using a similar approach. Local and global motion are included in the power system model to reflect the working condition of moving REHS on the robot. </p>
+<p><img src="directradiationonpanel.jpg" alt="Solar angle" width="600" class="center"></p>
+<p>Using worldwide weather reanalysis information, the data-driven simulation method provides assessment of power generation and demand load. For the first time, this simulation strategy is able to assess the power generation potential globally. </p>
+<h2>Optimisation and Design</h2>
+<p>Moving robot has limited space on board. In order to design an reliable and cost-effective REHS system, the configuration has to design by an optimisation approach. </p>
+<p>The power supply reliability and device system cost are included as two objectives in the optimisation.
+Design problem is converted as an optimisation problem and solved by the following algorithm.</p>
+<p><img src="flowchart.jpg" alt="Flow chart" width="600" class="center"></p>
+<h2>Management and Control</h2>
 <p>Under construction</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2018-06-06 07:33:26 BST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2019-06-06 18:06:36 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

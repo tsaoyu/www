@@ -3,20 +3,21 @@
 
 ~~~
 {}{img_left}{profile.jpg}{Profile}{240}{320}{}
-My name is Yu Cao, third year PhD candidate at University of Southampton.
+My name is Yu Cao, final year PhD candidate at University of Southampton.
 
-My research interests are in the field of long-term self-sustained autonomous robot systems. I am currently working on two related areas:
-theoretical research on the hybrid renewable energy system (HRES) based power system and applied research on the autonomy of robotics.
+My research interests are in the field of long-term self-sustained robots that both intelligently and energetically autonomous.
+I am currently working on two related areas: theoretical research on the moving hybrid renewable energy system (HRES) and applied research on reinforcement learning (RL) based robot behavior control. 
 
-The theoretical research on HRES addresses the long-term uninterrupted power supply issue of the robots which
-cover the design, optimisation and management of power system on *moving* robots such as the surface vehicle, autonomous cars and drones. I extended my research interests to the autonomy of robotics with a particular emphasis on *maritime* robotics.
+The HRES theoretical research could potentially provide the robot with unlimited power supply. The applied RL research teaches the robot to learn and adapt accordingly from their experience.
 
 You can find more about my research on the left columns.
 
 
+{{<img src="new.gif" alt="Data-driven" width="32">}} News:
 
-News:
-- We will host World Robotic Sailing Championship [https://www.roboticsailing.org/2018/ (WRSC) 2018] at Southampton! Please join us! (Apr. 2018)
+- I am organising World Robotic Sailing Championship [https://www.roboticsailing.org/2019/ (WRSC) 2019] at China! Please join us! (May. 2019) 
+
+- We will host World Robotic Sailing Championship [https://www.roboticsailing.org/2018/ (WRSC) 2018] at Southampton! Please join us! (Apr. 2018) and we won again (Sept. 2018)
 
 - [https://karlobermeyer.github.io/VisiLibity1/ VisiLibity1], Planar Visibility Computations (power management, path planning), now available on PyPI (LGPL license). (Mar. 2018)
 

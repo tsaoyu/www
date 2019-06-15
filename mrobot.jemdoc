@@ -1,16 +1,16 @@
 # jemdoc: menu{MENU}{mrobot.html}
 =Autonomous Sailing Robot Project
 
-Sailing robot is an autonomous boat, it use sustainable wind energy as propulsion power. It can be used in a long term oceanographical survey, routinely water quality monitor, marine animal tracking. Started this in Jan 2016, this student lead project aimed to design and build an open-source sailing robot system. We participate in top level competitions, organise open-day events, write blog posts, and give formal presentations in order to enrich the public understanding on the future of autonomy and clean energy.
+Sailing robot is an autonomous ship, using sustainable wind energy as the only source of propulsion. It can be used in long-term oceanographic survey, routine monitoring of water quality, tracking of marine animals. This student lead project started in January 2016 with the goal of designing and building an open-source sailing robot system. We participate in competitions at world level, organize open-day activities, write blog posts, and give presentations about the future of autonomy and clean energy.
 
 
 == Competition challenges
-We participated in the World Robotics Sailing Competition (WRSC) from 2016. Competition has four major challenges, the team who achieved the best among all challenges win the *World Champion* title. Those four challenges are all close related to the real user scenarios, in more details:
+Southampton Sailing Robot Team started participating in the World Robotics Sailing Competition (WRSC) from 2016. This competition has four challenges. The team achieved the best overall performance win the *World Champion* title.
 ~~~
 {}{img_left}{challenges.png}{Challenges 2016}{ }{200}{}
-- First challenge: fleet race, similar to the conventional sailing regatta, faster means higher scores.
+- First challenge: fleet race, similar to the conventional sailing regatta, faster teams has higher scores.
 
-- Second challenge: station keeping, boat should able to keep as close to a given way point as possible. With in 5 minutes time, a smaller the averaged radius indicate a higher mark.
+- Second challenge: station keeping, boat should keep to a given way point as possible. With in 5 minutes time, a smaller the averaged radius indicate a higher mark.
 
 - Area searching is the third mission, an "L" shape area was divided into many smaller blocks, the more blocks sailboat visited the higher it scores.
 
