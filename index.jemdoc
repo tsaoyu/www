@@ -3,17 +3,18 @@
 
 ~~~
 {}{img_left}{profile.jpg}{Profile}{240}{320}{}
-My name is Yu Cao, final year PhD candidate at University of Southampton.
+My name is Yu Cao, graduated from the University of Southampton.
 
-My research interests are in the field of long-term self-sustained robots that both intelligently and energetically autonomous.
-I am currently working on two related areas: theoretical research on the moving hybrid renewable energy system (HRES) and applied research on reinforcement learning (RL) based robot behavior control. 
-
-The HRES theoretical research could potentially provide the robot with unlimited power supply. The applied RL research teaches the robot to learn and adapt accordingly from their experience.
+My research interests are in the field of fully autonomous robots that both intelligently and energetically self-sustained.
+I am currently working on two related areas:  advanced motion control and energy autonomy of the robots.
 
 You can find more about my research on the left columns.
+Personal work can be found at [https://blog.tsaoyu.com my blog].
 
 
 {{<img src="new.gif" alt="Data-driven" width="32">}} News:
+
+- I have moved to University of Edinburgh as a research associate working on [https://orcahub.org ORCA hub] project. (July. 2019)
 
 - I am organising World Robotic Sailing Championship [https://www.roboticsailing.org/2019/ (WRSC) 2019] at China! Please join us! (May. 2019) 
 
