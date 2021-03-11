@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{robot_pub.html}
+= Publications
+Research outcome including journal papers, conference papers and OSS (open-source software) are listed below.
+
+== Papers
+
+[1] Y Cao, B Li, Q Li, AA Stokes, DM Ingram, A Kiprakis (2020) A Nonlinear Model Predictive Controller for Remotely Operated Underwater Vehicles With Disturbance Rejection, IEEE Access 8, 158622-158634
+
+[2] Q Li, Y Cao, B Li, DM Ingram, A Kiprakis (2020) Numerical Modelling and Experimental Testing of the Hydrodynamic Characteristics for an Open-Frame Remotely Operated Vehicle, ournal of Marine Science and Engineering 8 (9), 688
+
+[3] E Vargas, R Scona, JS Willners, T Łuczyński, Y Cao, S Wang, YR Petillot (2021) Robust Underwater Visual SLAM Fusing Acoustic Sensing , ICRA 
+
+[4] Y Cao, B Li, Q Li, AA Stokes, D Ingram, A Kiprakis (2021) Reasoning Operational Decisions for Robots via Time Series Causal Inference , ICRA
+
+[5] S Lemaire, Y Cao, T Kluyver, D Hausner, C Vasilovici, Z Lee, UJ Varbaro (2019) Adaptive Probabilistic Tack Manoeuvre Decision for Sailing Vessels, IRSC
+
+
+
+
+== Softwares
+
+=== ORCA_control
+[https://github.com/tsaoyu/ORCA_control ORCA_control] is a ROS package for the control and simulation of BlueROV2. 
+
+=== ORCA_advance_control
+
+[https://github.com/tsaoyu/ORCA_advance_control ORCA_advance_control] is a high performance C++ model predictive controller (MPC) for disturbance aware control (described in [1]). 
+
+
