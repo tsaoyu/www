@@ -3,24 +3,24 @@
 
 ~~~
 {}{img_left}{profile.jpg}{Profile}{240}{320}{}
-My name is Yu Cao, graduated from the University of Southampton.
+My name is Yu Cao, PhD from the University of Southampton.
 
 My research interests are in the field of artificial intelligence and robotics.
-I have been working on advanced motion control and energy autonomy of the robots.
+I am working on large scale Data + AI cloud service with special interests in parallel and distributed computing. 
 
-You can find more about my research on the left columns.
-Personal work can be found at [https://blog.tsaoyu.com my blog].
+This website is a snapshot of my research between 2016 to 2021.
+For more recent work, please check [https://tsaoyu.github.io/wiki the wiki] and personal work can be found at [https://blog.tsaoyu.com my blog].
 
 
 {{<img src="new.gif" alt="Data-driven" width="32">}} News:
+
+- I have decided to join the industry and explore how Data + AI could benefit the public. (Apr. 2021)
 
 - I have moved to University of Edinburgh as a research associate working on [https://orcahub.org ORCA hub] project. (July. 2019)
 
 - I am organising World Robotic Sailing Championship [https://www.roboticsailing.org/2019/ (WRSC) 2019] at China! Please join us! (May. 2019) 
 
 - We will host World Robotic Sailing Championship [https://www.roboticsailing.org/2018/ (WRSC) 2018] at Southampton! Please join us! (Apr. 2018) and we won again (Sept. 2018)
-
-- [https://karlobermeyer.github.io/VisiLibity1/ VisiLibity1], Planar Visibility Computations (power management, path planning), now available on PyPI (LGPL license). (Mar. 2018)
 
 - [https://maritimerenewable.github.io/PyResis/ PyResis] Python ship propulsion Resistance estimation package is released under MIT license. (Oct. 2017)
 
