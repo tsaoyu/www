@@ -1,16 +1,43 @@
----
-layout: layout
-title: "Posts"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Dr. Yu Cao</title>
+</head>
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <i class="fas fa-code fa-5x white"></i>
+            <h2>Dr. Yu Cao</h2>
+            <p>Large Language Model, Reinforcement Learning</p>
+            <a href="https://www.zhihu.com/people/moland"><i class="fab fa-zhihu"></i></a>
+            <a href="https://www.linkedin.com/in/tsaoyu/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/tsaoyu "><i class="fab fa-github"></i></a>
+        </div>
+        <div class="section-2">
+            <h2>About</h2>
+            <p>AI research engineer spealised in foundation model, cloud native architecture</p>
+            <h2>Education</h2>
+            <p>University of Edinburgh: Research Associate </p>
+            <p>University of Southampton: PhD in Robotics </p>
 
-<section class="content">
-  <ul class="listing">
-    {% for post in site.posts %}
-      {% unless post.draft %}
-      <li>
-        <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-</section>
+            <h2>Experience</h2>
+            <p><a href="https://www.huaweicloud.com/intl/en-us/news/20230707180809498.html">Pangu Large Language Model, Principle Engineer</a></p>
+            <p><a href="https://www.huaweicloud.com/intl/en-us/product/modelarts.html"> Modelarts AI platform, Senior Engineer</a></p>
+            <p>Public knowledge base @ <a href="https://tsaoyu.github.io/wiki/#/graph">logseq</a></p>
+
+            <h2>Contact</h2>
+            <p>Email: [domain]@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html> 
+
+
+
+
+
