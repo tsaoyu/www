@@ -1,0 +1,48 @@
+# jemdoc: menu{MENU}{research.html}
+=Hybrid renewable energy system for moving platforms
+
+Hybrid Renewable Energy System (HRES) harvests energy from multiple sustainable renewable resources to provide unlimited power supply to the robot. Current research on HRES is limited to stationary applications that neither theoretical model or partial tool are available to a moving robot. This research focus on the modelling, designing and management of HRES for long-term uninterrupted power supply. 
+
+== Model and Simulation
+
+First part of the research is the moving HRES model. 
+Compare to conventional stationary models, the moving model considered both global and local motion of the robot. 
+Here is an example on the moving wind power generator during a long-term simulation. 
+
+ 
+{{<iframe src="wind_bokeh.html"
+    sandbox="allow-same-origin allow-scripts"
+    position="absolute"
+    top=0
+    left=0
+    width="120%"
+    height="800px"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>}}
+
+Have you noticed that the minimal discounted wind turbine energy generation is negative when exploring the allocation of wind power generation? This is because the robot's local motion introduces an extra wind resistance that must counterbalance by the propulsion system. Depending on the direction of the wind, net power generation after the propulsion energy discount could be negative.
+
+The rest of power system is modelled using a similar approach. Local and global motion are included in the power system model to reflect the working condition of moving REHS on the robot. 
+
+{{<img src="directradiationonpanel.jpg" alt="Solar angle" width="600" class="center">}}
+
+Using worldwide weather reanalysis information, the data-driven simulation method provides assessment of power generation and demand load. For the first time, this simulation strategy is able to assess the power generation potential globally. 
+
+
+== Optimisation and Design
+
+Moving robot has limited space on board. In order to design an reliable and cost-effective REHS system, the configuration has to design by an optimisation approach. 
+
+The power supply reliability and device system cost are included as two objectives in the optimisation.
+Design problem is converted as an optimisation problem and solved by the following algorithm.
+
+
+
+{{<img src="flowchart.jpg" alt="Flow chart" width="600" class="center">}}
+
+
+
+ == Management and Control
+Under construction

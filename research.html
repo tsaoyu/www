@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Hybrid renewable energy system for moving platforms</title>
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">About me</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-category">Robotics</div>
+<div class="menu-item"><a href="mrobot.html">Sailing&nbsp;Robot</a></div>
+<div class="menu-item"><a href="datasets.html">Datasets</a></div>
+<div class="menu-item"><a href="robot_pub.html">Publications</a></div>
+<div class="menu-category">Renewable</div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-category">Ancient works</div>
+<div class="menu-item"><a href="hydro.html">Hydro&nbsp;Contest</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Hybrid renewable energy system for moving platforms</h1>
+</div>
+<p>Hybrid Renewable Energy System (HRES) harvests energy from multiple sustainable renewable resources to provide unlimited power supply to the robot. Current research on HRES is limited to stationary applications that neither theoretical model or partial tool are available to a moving robot. This research focus on the modelling, designing and management of HRES for long-term uninterrupted power supply. </p>
+<h2>Model and Simulation</h2>
+<p>First part of the research is the moving HRES model. 
+Compare to conventional stationary models, the moving model considered both global and local motion of the robot. 
+Here is an example on the moving wind power generator during a long-term simulation. </p>
+<p><iframe src="wind_bokeh.html"
+sandbox="allow-same-origin allow-scripts"
+position="absolute"
+top=0
+left=0
+width="120%"
+height="800px"
+scrolling="no"
+seamless="seamless"
+frameborder="0">
+</iframe></p>
+<p>Have you noticed that the minimal discounted wind turbine energy generation is negative when exploring the allocation of wind power generation? This is because the robot's local motion introduces an extra wind resistance that must counterbalance by the propulsion system. Depending on the direction of the wind, net power generation after the propulsion energy discount could be negative.</p>
+<p>The rest of power system is modelled using a similar approach. Local and global motion are included in the power system model to reflect the working condition of moving REHS on the robot. </p>
+<p><img src="directradiationonpanel.jpg" alt="Solar angle" width="600" class="center"></p>
+<p>Using worldwide weather reanalysis information, the data-driven simulation method provides assessment of power generation and demand load. For the first time, this simulation strategy is able to assess the power generation potential globally. </p>
+<h2>Optimisation and Design</h2>
+<p>Moving robot has limited space on board. In order to design an reliable and cost-effective REHS system, the configuration has to design by an optimisation approach. </p>
+<p>The power supply reliability and device system cost are included as two objectives in the optimisation.
+Design problem is converted as an optimisation problem and solved by the following algorithm.</p>
+<p><img src="flowchart.jpg" alt="Flow chart" width="600" class="center"></p>
+<h2>Management and Control</h2>
+<p>Under construction</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-07-27 22:19:00 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

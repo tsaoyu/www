@@ -1,0 +1,7 @@
+
+<script
+    src="Wind power plot"
+    id="2b2a2e20-8f2b-4a77-b7eb-c63a8bd31f27"
+    data-bokeh-model-id="cffe14a6-7866-4977-917a-49037d37d959"
+    data-bokeh-doc-id="7c71240a-6fa0-49d2-b176-a68e96a8c9d3"
+></script>
